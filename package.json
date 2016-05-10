@@ -1,0 +1,29 @@
+{
+  "name": "redux-state-validator",
+  "version": "0.0.3",
+  "description": "Validate the Redux Application State with JSON Schema",
+  "main": "lib/index.js",
+  "scripts": {
+    "build:lib": "babel src --out-dir lib"
+  },
+  "keywords": [
+    "redux",
+    "ajv"
+  ],
+  "author": "BNA Software",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.3.13",
+    "babel-core": "6.3.13",
+    "babel-loader": "6.2.0",
+    "babel-plugin-add-module-exports": "0.1.1",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "6.3.13",
+    "webpack": "1.12.9"
+  },
+  "dependencies": {
+    "ajv": "4.0.5",
+    "json-loader": "0.5.4"
+  }
+}
